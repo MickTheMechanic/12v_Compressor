@@ -27,4 +27,5 @@
 1x TP4056 lithium battery charger module
 #
 1x 12v relay with built in fuse (30A)
-
+#
+2x Bi-Color LED (Common Annode!)
