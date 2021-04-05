@@ -16,8 +16,8 @@ The compressor is made up of a used BMW air suspension compressor (manufacturer 
 The compressor is controlled via an Arduino Uno, which switches a relay on or off depending on the pressure inside the tanks. The current pressure is displayed on a 2.8" TFT screen. A small lithium battery is included, so that a pressure read out can be achieved without 12v power supply.
 
 - If 12v supply is not present, the power button can be pressed and the display will show a realtime pressure readout for 20 seconds and switch off automatically.
-- If 12v supply is present the lithium battery will be recharged
-- If 12v is present and the power button has been pressed, the compressor will power up and remain on as long as 12v is present. The compressor will be powered on and off via the relay automatically depending on realtime pressure. The lithium battery will also be recharged.
+- If 12v supply is present and device is switched off the lithium battery will be recharged
+- If 12v supply is present and device is switchen on, the compressor will be powered on and off via the relay automatically depending on realtime pressure. The lithium battery will also be recharged. Realtime pressure will be displayed on screen.
 
 ### There are also two status LED's
 #### Left LED:
